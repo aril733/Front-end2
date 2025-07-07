@@ -5,12 +5,14 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Site do NEABI</title> 
-  <!-- Google Fonts -->  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />  
-  <!-- Font Awesome para ícones -->  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />  
-  <!-- Normalize CSS -->  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />  
-  <!-- Estilo personalizado -->  <link rel="stylesheet" href="aril.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />  
+  <link rel="stylesheet" href="style.css" />
+
 </head>
-<body>  <header class="menu-sticky">
+<body>  
+    <header class="menu-sticky">
     <div class="logo-nav">
       <img src="trab2/img/logo.png" alt="Logo do site" class="logo" />
       <nav>
@@ -58,16 +60,48 @@
   <footer class="rodape">
     <div class="logos-footer">
       <figure>
-        <a href="https://instagram.com/@rgneabi" target="_blank">
-          <img src="trab2/img/neabi.png" alt="rodape1" class="img-footer">
-        </a>
-      </figure>
-      <figure>
-        <a href="https://instagram.com/@museuafrobrasilsul" target="_blank">
-          <img src="trab2/img/mabsul.png" alt="rodape2" class="img-footer">
-        </a>
-      </figure>
+        <input type="email" id="email" name="email">
     </div>
   </footer>
+ 
+  <section>
+  
+
+    
+    <form>
+        <div class="form-grid">
+        <fieldset>
+        <legend>Dados:</legend>
+        <label for="n1">Nome:</label>
+        <input type="text" id="n1"><br>
+        <label for="n1">Sobrenome:</label>
+        <input type="text" id="n1"><br>
+        <label for="s1">Senha:</label>
+        <input type="password" id="s1"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="s1">Telefone:</label>
+        <input type="tel" name="telefone"><br>
+        <input type = "submit" value = "enviar"><br>
+        </fieldset>
+        </div>
+         </form>
+    
+      
+         <picture>
+          <source media="(min-width:650px)" srcset="dog-large.webp">
+          <source media="(min-width:465px)" srcset="dog-medium.webp">
+          <img src="dog-small.webp" alt="dogs" style="width:auto;">
+        </picture>
+
+      <section>
+        <div class="container">
+        <div class="item item1">Item 1</div>
+        <div class="item item2">Item 2</div>
+        <div class="item item3">Item 3</div>
+        <div class="item item4">Item 4</div>
+        <div class="item item5">Item 5</div>
+      </section>
+     
 </body>
 </html>

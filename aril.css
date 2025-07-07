@@ -158,7 +158,7 @@
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1f 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
  "foto1 foto2" 
  "foto3 foto4"

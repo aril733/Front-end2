@@ -192,35 +192,35 @@
 
 .item1 {
     grid-area: foto1;
-    background-image: url("Front-end2/trab2/img/gatojoinha.webp");
+    background-image: url("img/gatojoinha.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .item2 {
     grid-area: foto2;
-    background-image: url("Front-end2/trab2/img/gatoalien.webp");
+    background-image: url("img/gatoalien.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .item3 {
     grid-area: foto3;
-    background-image: url("Front-end2/trab2/img/gatotrab.webp");
+    background-image: url("img/gatotrab.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .item4 {
     grid-area: foto4;
-    background-image: url("Front-end2/trab2/img/ropopo.webp");
+    background-image: url("img/ropopo.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }    
 
 .item5 {
   grid-area: foto5;
-  background-image: url("Front-end2/trab2/img/cachorrodefone1_1.webp");
+  background-image: url("img/cachorrodefone1_1.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }    

@@ -1,4 +1,4 @@
-* {
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -122,3 +122,80 @@
     text-decoration: underline;
   }
   
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    grid-gap: 10px; 
+  }
+  .figuraform{
+    display:grid ;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  label {
+    grid-column: 1; 
+    font-weight: bold;
+  }
+  
+  input {
+    grid-column: 2; 
+  }
+  
+  button {
+    grid-column: span 2; 
+    text-align: center; 
+  }
+
+  @media (width < 700px){
+    .figuraform{
+        display:grid ;
+        grid-template-columns: 1fr;
+      }
+    
+  }
+
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1f 1fr;
+    grid-template-areas:
+ "foto1 foto2" 
+ "foto3 foto4"
+ "foto5 foto5";
+}
+
+.item1 {
+    grid-area: foto1;
+    background-image: url(file:///Front-end2/trab2/gatojoinha.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item2 {
+    grid-area: foto2;
+    background-image: url(file:///Front-end2/trab2/gatoalien.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item3 {
+    grid-area: foto3;
+    background-image: url(file:///Front-end2/trab2/gatotrab.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item4 {
+    grid-area: foto4;
+    background-image: url(file:///Front-end2/trab2/ropopo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+
+.item4 {
+  grid-area: foto5;
+  background-image: url(file:///Front-end2/trab2/cachorrodefone1_1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}    

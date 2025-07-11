@@ -265,3 +265,15 @@
   75%  { background-color: green;  left: 0; top: 200px; }
   100% { background-color: red;    left: 0; top: 0; }
 }
+
+.caixa {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.caixa:hover {
+  background-color: blue;
+  transform: scale(1.2);
+}

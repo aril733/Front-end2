@@ -1,4 +1,4 @@
-  * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +10,7 @@
   }
   
   .menu-sticky {
-    position: sticky;
+    position: fixed;
     top: 0;
     background-color: #333;
     color: white;
@@ -75,11 +75,6 @@
     background-color: #f0f0f0;
   }
 
-  #animacao {
-    background-color: #e0e0e0;
-  }
-
-  
   .texto {
     text-indent: 30px;
     text-align: justify;
@@ -281,4 +276,25 @@
 .caixa:hover {
   background-color: blue;
   transform: scale(1.2);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.secao {
+  animation: fade-in linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

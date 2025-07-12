@@ -4,13 +4,15 @@
   <meta charset="UTF-8" />
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Site do NEABI</title> 
+  <title>Site do NEABI</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />  
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="aril.css" />
 
 </head>
+  
 <body>  
     <header class="menu-sticky">
     <div class="logo-nav">
@@ -20,6 +22,10 @@
         <a href="#sobre">Sobre</a>
         <a href="#servicos">Bolsas</a>
         <a href="#contato">Contato</a>
+        <a href="#formulario">Formulário</a>
+        <a href="#panel">Panel</a>
+        <a href="#animacao">Animação</a>
+
       </nav>
     </div>
   </header>  
@@ -30,6 +36,7 @@
     </figure>
   </section>  
   <section id="sobre" class="secao">
+ 
     <h2>Sobre Nós</h2>
     <h1>Conheça um pouco mais sobre nosso núcleo.</h1>
     <p class="texto">O Núcleo de Estudos Afro-brasileiros e Indígenas – NEABI – do Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul, criado por portaria instituída em cada campus, é um setor propositivo e consultivo que estimula e promove ações de Ensino, Pesquisa e Extensão orientadas à temática das identidades e relações étnico-raciais, especialmente quanto às populações afrodescendentes e indígenas, no âmbito da instituição e em suas relações com a comunidade externa.</p>
@@ -44,17 +51,19 @@
     --Organizar espaços de conhecimento, reconhecimento e interação com grupos étnico-raciais;<br>
     --Revisar documentos dos campi, sempre buscando a inserção e atualização dos mesmos no que compete as questões étnico-raciais;<br>
     --Propor e participar de eventos de outras instituições, como também de movimentos sociais que envolvam questões relacionadas a cultura afro-brasileira e indígena.</p>
+   
   </section>  
+ 
   <section id="servicos" class="secao">
+ 
     <h2>Bolsas do Núcleo</h2>
     <p class="texto">“Aquilombameto” transmite uma ideia de resistência, união e fortalecimento coletivo, pilares importantes que estão diretamente conectados com os objetivos do Núcleo de Estudos Afro-Brasileiros e Indígenas (NEABI), que visa promover a valorização das culturas afro-brasileira e indígena por meio de ações de Ensino, Pesquisa e Extensão. Por meio do NEABI, estimulamos ações orientadas à temática das identidades e relações étnico-raciais, especialmente quanto às populações afrodescendentes e indígenas, no âmbito da instituição e em suas relações com a comunidade externa.</p>
     <p class="texto">Portanto, este projeto é indissociável pois o grupo de estudos desenvolve pesquisa bibliográfica e discussão das leituras nos encontros no Núcleo e colabora para que a Lei 10.630 seja aplicada nas salas de aula do próprio IFRS e de outras escolas, promovendo ensino de qualidade que busca a democratização e valorização racial.</p>
     <p class="texto">A metodologia aplicada é pesquisa-ação, visto que a partir dos problemas encontrados, agiremos para amenizá-los ou solucioná-los, esperando colaborar para um convívio harmônico entre indígenas, negros e brancos na comunidade interna e externa. A participação de discentes do IFRS como bolsistas do NEABI é de suma importância, pois eles se aproximam dos seus pares de forma a propagar a teoria lida no grupo de estudos do Núcleo, bem como compartilham as práticas socioeducativas a respeito da temática das relações étnico-raciais nas suas comunidades (escola, família, bairro), tornando-se sujeitos críticos e referências a serem seguidas.</p>
     <p class="texto">Para que esse espaço (re)exista no IFRS Campus Rio Grande, precisamos de estrutura física e pessoas engajadas na causa antirracista e este projeto é uma maneira concreta para promoção das ações que envolvam a criação de redes de apoio, educação crítica e espaços de valorização cultural para afro-brasileiros e indígenas.</p>
-  
+ 
 
-  
-  <section class= "secao">
+  <section id="formulario" class="secao">
 
   <form>
   <div class="form-grid">
@@ -73,9 +82,8 @@
       <button type="submit">Enviar</button>
     </fieldset>
   </div>
-</form>   
+</form>  
 
-  
         <picture>
         <source media="(min-width:650px)" srcset="trab2/img/dog-large.webp">
         <source media="(min-width:465px)" srcset="trab2/img/dog-medium.webp">
@@ -84,7 +92,7 @@
 
   </section>
 
-      <section class= "secao">
+      <section id="panel" class= "secao">
         <div class="container">
         <div class="item item1">Item 1</div>
         <div class="item item2">Item 2</div>
@@ -93,5 +101,81 @@
         <div class="item item5">Item 5</div>
       </section>
      
+     <section class="secao">
+     
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="trab2/img/slide1.webp" class="d-block w-100" alt="Slide 1">
+    </div>
+    <div class="carousel-item">
+      <img src="trab2/img/slide2.webp" class="d-block w-100" alt="Slide 2">
+    </div>
+    <div class="carousel-item">
+      <img src="trab2/img/slide3.webp" class="d-block w-100" alt="Slide 3">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Próximo</span>
+  </button>
+</div>
+     
+
+    <div class="container">
+  <h2>Basic Table</h2>
+  <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>            
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+     
+</section>
+
+<section class="secao">
+        
+<div class="quadrado">
+</div>
+
+<div class="caixa">
+</div>
+
+</section>
+     
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

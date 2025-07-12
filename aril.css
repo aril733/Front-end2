@@ -184,55 +184,61 @@
   }
 }
 
-@media (max-width: 700px) {
-  .form-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:
- "foto1 foto2" 
- "foto3 foto4"
- "foto5 foto5";
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-areas:
+    "foto1 foto2"
+    "foto3 foto4"
+    "foto5 foto5";
+  gap: 10px;
+  margin: 20px;
 }
 
 .item1 {
-    grid-area: foto1;
-    background-image: url("trab2/img/gatojoinha.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
+  grid-area: foto1;
+  background-image: url("trab2/img/gatojoinha.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .item2 {
-    grid-area: foto2;
-    background-image: url("trab2/img/gatoalien.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
+  grid-area: foto2;
+  background-image: url("trab2/img/gatoalien.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .item3 {
-    grid-area: foto3;
-    background-image: url("trab2/img/gatotrab.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
+  grid-area: foto3;
+  background-image: url("trab2/img/gatotrab.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .item4 {
-    grid-area: foto4;
-    background-image: url("trab2/img/ropopo.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-}    
+  grid-area: foto4;
+  background-image: url("trab2/img/ropopo.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .item5 {
   grid-area: foto5;
   background-image: url("trab2/img/cachorrodefone1_1.webp");
   background-repeat: no-repeat;
   background-size: cover;
-}    
+}
+
+.container .item {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .container {
   display: grid;

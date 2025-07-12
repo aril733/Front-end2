@@ -75,6 +75,11 @@
     background-color: #f0f0f0;
   }
 
+  #animacao {
+    background-color: #e0e0e0;
+  }
+
+  
   .texto {
     text-indent: 30px;
     text-align: justify;

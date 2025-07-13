@@ -305,3 +305,17 @@ html {
     transform: translateY(0);
   }
 }
+
+.form-imagem-container {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap; /* em telas pequenas, empilha */
+}
+
+.imagem-formulario {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
